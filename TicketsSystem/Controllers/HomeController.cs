@@ -1,21 +1,25 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using TicketsSystem.Data;
 using TicketsSystem.Models;
 
 namespace TicketsSystem.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext _context;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,ApplicationDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var getTicketsList = _context.Ticket.ToList();
+            return View(getTicketsList);
         }
 
         public IActionResult Privacy()
