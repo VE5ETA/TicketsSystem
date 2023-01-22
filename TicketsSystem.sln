@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsSystem", "TicketsSystem\TicketsSystem.csproj", "{0285672F-DDBB-4B85-9AC7-9D76056D428F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploadControl", "FileUploadControl\FileUploadControl.csproj", "{1F1663FC-ACF9-4AFA-A127-82BF435F769A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0285672F-DDBB-4B85-9AC7-9D76056D428F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0285672F-DDBB-4B85-9AC7-9D76056D428F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0285672F-DDBB-4B85-9AC7-9D76056D428F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0285672F-DDBB-4B85-9AC7-9D76056D428F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1663FC-ACF9-4AFA-A127-82BF435F769A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1663FC-ACF9-4AFA-A127-82BF435F769A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1663FC-ACF9-4AFA-A127-82BF435F769A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1663FC-ACF9-4AFA-A127-82BF435F769A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B111089-B635-441C-92C8-1F4A552B2695}
+	EndGlobalSection
+EndGlobal
